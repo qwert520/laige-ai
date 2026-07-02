@@ -1,4 +1,4 @@
-# 来哥AI Studio — 个人品牌官网
+# 来哥AI — 个人品牌官网
 
 > **让AI成为你的超级员工**
 
@@ -188,4 +188,4 @@ npx serve out -p 3000
 
 ## License
 
-Private — 吴文来（来哥AI Studio）版权所有
+Private — 吴文来（来哥AI ）版权所有
