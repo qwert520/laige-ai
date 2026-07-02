@@ -28,7 +28,7 @@
 - **亮色/暗色模式**：一键切换，自动跟随系统偏好
 - **滚动入场动画**：基于 Framer Motion 的视口检测动画
 - **响应式布局**：PC / 平板 / 手机完美适配
-- **完整 SEO 配置**：OG 标签、Twitter Card、JSON-LD、Meta 关键字
+- **完整 SEO/GEO 配置**：OG 标签、Twitter Card、JSON-LD、Meta 关键字
 - **粒子背景**：Hero 区域动态粒子动画
 - **毛玻璃特效**：导航栏、卡片等 Glassmorphism 风格
 - **纯静态导出**：`output: 'export'`，可部署到任意静态托管平台
@@ -40,7 +40,7 @@
 ```
 laige-ai/
 ├── app/                          # Next.js App Router 页面
-│   ├── layout.tsx                # 根布局 + SEO 元数据 + 字体
+│   ├── layout.tsx                # 根布局 + SEO/GEO 元数据 + 字体
 │   ├── page.tsx                  # 首页（组装所有 Section）
 │   ├── globals.css               # 全局样式 + Tailwind v4 主题 + 品牌变量
 │   ├── about/page.tsx            # 关于页
@@ -143,7 +143,7 @@ npx serve out -p 3000
 - **联系方式**：编辑 `components/sections/contact-section.tsx`（电话、邮箱、地址）
 - **个人简介**：编辑 `components/sections/hero-section.tsx` 中的介绍文字
 - **时间线**：编辑 `components/sections/about-section.tsx` 中的里程碑数据
-- **SEO 信息**：编辑 `app/layout.tsx` 中的 `metadata` 对象
+- **SEO/GEO 信息**：编辑 `app/layout.tsx` 中的 `metadata` 对象
 
 ### 更换图片
 
